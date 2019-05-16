@@ -16,9 +16,8 @@ export const toggleTodo = id => {
 	}
 }
 
-export const removeCompleted = id => {
+export const removeCompleted = () => {
 	return {
 		type: REMOVE_COMPLETED,
-		payload: id
 	}
 }
